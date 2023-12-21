@@ -1,0 +1,106 @@
+﻿{
+  "meta": {
+    "currentPage": 2,
+    "totalItems": 8,
+    "itemsPerPage": 5,
+    "totalPages": 2
+  },
+  "data": [
+    {
+      "id": 1,
+      "title": "Naslov jela na HRV jeziku",
+      "description": "Opis jela na HRV jeziku",
+      "status": "created",
+      "category": {
+        "id": 2,
+        "title": "Naslov kategorije 2 na HRV jeziku",
+        "slug": "category-2"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "title": "Naslov taga 1 na HRV jeziku",
+          "slug": "tag-1"
+        },
+        {
+          "id": 2,
+          "title": "Naslov taga 2 na HRV jeziku",
+          "slug": "tag-2"
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 58,
+          "title": "Naslov sastojka 58",
+          "slug": "sastojak-58"
+        },
+        {
+          "id": 43,
+          "title": "Naslov sastojka 43",
+          "slug": "sastojak-43"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Naslov jela 2 na HRV jeziku",
+      "description": "Opis jela 2 na HRV jeziku",
+      "status": "created",
+      "category": null,
+      "tags": [
+        {
+          "id": 2,
+          "title": "Naslov taga 2 na HRV jeziku",
+          "slug": "tag-2"
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 58,
+          "title": "Naslov sastojka 58",
+          "slug": "sastojak-58"
+        },
+        {
+          "id": 43,
+          "title": "Naslov sastojka 43",
+          "slug": "sastojak-43"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Naslov jela 3 na HRV jeziku",
+      "description": "Opis jela 3 na HRV jeziku",
+      "status": "deleted",
+      "category": {
+        "id": 1,
+        "title": "Naslov kategorije 1 na HRV jeziku",
+        "slug": "category-1"
+      },
+      "tags": [
+        {
+          "id": 2,
+          "title": "Naslov taga 2 na HRV jeziku",
+          "slug": "tag-2"
+        }
+      ],
+      "ingredients": [
+        {
+          "id": 58,
+          "title": "Naslov sastojka 58",
+          "slug": "sastojak-58"
+        },
+        {
+          "id": 43,
+          "title": "Naslov sastojka 43",
+          "slug": "sastojak-43"
+        }
+      ]
+    }
+  ],
+  "links": {
+    "prev": "http://localhost/meals?per_page=5&tags=2&lang=hr&with=ingredients,category,tags&page=1",
+    "next": null,
+    "self": "http://localhost/meals?per_page=5&tags=2&lang=hr&with=ingredients,category,tags&page=2"
+  }
+}
